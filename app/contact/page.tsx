@@ -138,7 +138,7 @@ export default function ContactPage() {
         </div>
       </div>
 
-      <Footer />
+      <Footer simple={true} />
     </main>
   );
 }

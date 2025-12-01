@@ -419,7 +419,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
       </div>
-      <Footer />
+      <Footer simple={true} />
     </main>
   );
 }

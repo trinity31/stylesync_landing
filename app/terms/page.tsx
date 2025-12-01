@@ -123,7 +123,7 @@ export default function TermsOfService() {
           </ul>
         </div>
       </div>
-      <Footer />
+      <Footer simple={true} />
     </main>
   );
 }
