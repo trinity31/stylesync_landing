@@ -40,7 +40,12 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              <button className="hover:scale-105 active:scale-95 transition-transform">
+              <a 
+                href="https://apps.apple.com/kr/app/stylesync-ai/id6755629128" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:scale-105 active:scale-95 transition-transform"
+              >
                 <Image 
                   src="/images/appstore_icon_us_black.svg" 
                   alt="Download on the App Store" 
@@ -48,9 +53,14 @@ export default function Hero() {
                   height={53} 
                   className="h-[53px] w-auto"
                 />
-              </button>
+              </a>
               
-              <button className="hover:scale-105 active:scale-95 transition-transform">
+              <a 
+                href="https://play.google.com/store/apps/details?id=com.trinityapps.stylesyncai&pcampaignid=web_share" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:scale-105 active:scale-95 transition-transform"
+              >
                 <Image 
                   src="/images/googleplay_icon_us_black.png" 
                   alt="Get it on Google Play" 
@@ -58,7 +68,7 @@ export default function Hero() {
                   height={53} 
                   className="h-[53px] w-auto"
                 />
-              </button>
+              </a>
             </motion.div>
           </div>
 
